@@ -1,0 +1,80 @@
+/* src/ToDoList.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .to-do-list-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #e9ecef;
+  }
+  
+  button {
+    background: #6c757d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #495057;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  li span {
+    cursor: pointer;
+    color: #495057;
+  }
+  
+  li span.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
